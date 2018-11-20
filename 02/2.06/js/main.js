@@ -4,22 +4,23 @@
 *    2.6 - Selections and data joins
 */
 
-var data = [25, 20, 10, 12, 15];
+//import * as d3 from 'd3';
+let data = [25, 20, 10, 12, 15,40];
 
-var svg = d3.select("#chart-area").append("svg")
+let svg = d3.select("#chart-area").append("svg")
     .attr("width", 400)
     .attr("height", 400);
 
-var circles = svg.selectAll("circle")
+
+//funckcja data tworzy nam tutaj tyle okregow ile jest elementow tablicy nastepnie
+// wywolujac funkcje circles.enter() mamy doostetp do kazdego elemntu tablicy i mozemy napodstawie jego rysowac
+//kola (.data(data) dziala jak foreach .
+let circles = svg.selectAll("circle")
     .data(data);
 
 circles.enter()
     .append("circle")
-        .attr("cx", function(d, i){
-            return (i * 50) + 25;
-        })
-        .attr("cy", 25)
-        .attr("r", function(d){
-            return d;
-        })
-        .attr("fill", "red");
+        .attr("cx", (d, i)=> (i * 50) + 25)
+        .attr("cy", 100)
+        .attr("r", (d) => d)
+        .attr("fill", "#627332");
