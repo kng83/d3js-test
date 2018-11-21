@@ -39,7 +39,7 @@ d3.json("data/buildings.json").then(function (data) {
     let x = d3.scaleBand()
         .domain(data.map(d => d.name))//dajemy mapa by tablica byla za nas generowana
         .range([0, width]) // tu dajemy szerokosc
-        .paddingInner(0.02)
+        .paddingInner(0.2)
         .paddingOuter(0.3);
 
     let y = d3.scaleLinear()
