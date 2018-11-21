@@ -6,7 +6,7 @@
 * padding outer , padding inner ,step
 * padding inner and outer = <od 0 do 1> gdy 0 nie ma przestrzeni miedzy prostokatami
 */
-// dodajemy min i max dzieki temu mozemy ustawiac po kolei
+
 
 var svg = d3.select("#chart-area")
     .append("svg")
@@ -20,15 +20,17 @@ d3.json("data/buildings.json").then(function(data){
         d.height = +d.height;
     });
 
-    console.log(d3.max(data,(d)=> d.height)); //828
     var x = d3.scaleBand()
-        .domain(data.map(d => d.name))//dajemy mapa by tablica byla za nas generowana
+        .domain(["Burj Khalifa", "Shanghai Tower", 
+            "Abraj Al-Bait Clock Tower", "Ping An Finance Centre", 
+            "Lotte World Tower", "One World Trade Center","One","Two",
+            "Guangzhou CTF Finance Center"]) //pusty element Guagzu  jest tez liczony tylko nie pokazany bo go niema bez niego wyres jest rowny
         .range([0, 400])
         .paddingInner(0.02)
         .paddingOuter(0.3);
 
     var y = d3.scaleLinear()
-        .domain([0, d3.max(data,(d)=>d.height)]) //dajemy zamiast 828 wartosc maksymalna z danych
+        .domain([0, 828])
         .range([0, 400]);
 
     var rects = svg.selectAll("rect")

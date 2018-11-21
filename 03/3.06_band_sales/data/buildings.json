@@ -24,19 +24,11 @@
     "height": "650"
   },
   {
-  "name": "One",
-  "height": "650"
-},
+    "name": "One",
+    "height": "650"
+  },
   {
     "name": "Two",
-    "height": "750"
-  },
-  {
-    "name": "Ones",
-    "height": "450"
-  },
-  {
-    "name": "Twos",
-    "height": "350"
+    "height": "650"
   }
 ]

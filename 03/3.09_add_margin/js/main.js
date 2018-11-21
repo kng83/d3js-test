@@ -6,51 +6,62 @@
 * padding outer , padding inner ,step
 * padding inner and outer = <od 0 do 1> gdy 0 nie ma przestrzeni miedzy prostokatami
 */
-// dodajemy min i max dzieki temu mozemy ustawiac po kolei
+// dodajemy marigin
 
-var svg = d3.select("#chart-area")
+
+let margin = {left: 100, right: 10, top: 10, bottom: 100};
+
+//liczymy nowa wysokosc i szerokosc
+
+let width = 600 - margin.left - margin.right;
+let height = 400 - margin.top - margin.bottom;
+
+let svg = d3.select("#chart-area")
     .append("svg")
-    .attr("width", "400")
-    .attr("height", "400");
+    .attr("width", width + margin.left + margin.right) //bylo 400
+    .attr("height", height + margin.bottom + margin.top); //bylo 400
 
-d3.json("data/buildings.json").then(function(data){
+//dodajemy transycje grupowa (albo grupe)
+// to bedzie przesuniece
+//let g = svg.append('g').attr("transform","translate(" + margin.left + "," + margin.top + ")");
+//to moja wersja czytelniejsza
+let g = svg.append('g').attr("transform", `translate(${margin.left},${margin.top})`);
+
+
+d3.json("data/buildings.json").then(function (data) {
     console.log(data);
 
-    data.forEach(function(d) {
+    data.forEach(function (d) {
         d.height = +d.height;
     });
 
-    console.log(d3.max(data,(d)=> d.height)); //828
-    var x = d3.scaleBand()
+    console.log(d3.max(data, (d) => d.height)); //828
+    let x = d3.scaleBand()
         .domain(data.map(d => d.name))//dajemy mapa by tablica byla za nas generowana
-        .range([0, 400])
+        .range([0, width]) // tu dajemy szerokosc
         .paddingInner(0.02)
         .paddingOuter(0.3);
 
-    var y = d3.scaleLinear()
-        .domain([0, d3.max(data,(d)=>d.height)]) //dajemy zamiast 828 wartosc maksymalna z danych
-        .range([0, 400]);
+    let y = d3.scaleLinear()
+        .domain([0, d3.max(data, (d) => d.height)]) //dajemy zamiast 828 wartosc maksymalna z danych
+        .range([0, height]); // tu dajemy wysokosc
 
-    var rects = svg.selectAll("rect")
-            .data(data)
-            .enter()
-            .append("rect")
-            .attr("id",(d,i)=>{
+    let rects = g.selectAll("rect") //tu dajemy nasze g zeby bylo w srodku
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("id", (d, i) => {
             return "kot";
         })
-            .attr("y", 0)
-            .attr("x", function(d){
-                return x(d.name);
-            })
-            .attr("width", x.bandwidth) // tutaj jest szerokosc pola ktora jest wyliczana na postwie ilosci elementow
-            .attr("height", function(d){
-                return y(d.height);
-            })
-            .attr("fill", function(d) {
-                if(d.height>600){
-                   return "grey"
-                }
-                return "red";
-            });
+        .attr("y", 0)
+        .attr("x", (d) => x(d.name))
+        .attr("width", x.bandwidth) // tutaj jest szerokosc pola ktora jest wyliczana na postwie ilosci elementow
+        .attr("height", d => y(d.height))
+        .attr("fill", (d) => {
+            if (d.height > 600) {
+                return "grey"
+            }
+            return "red";
+        });
 
-})
+});
