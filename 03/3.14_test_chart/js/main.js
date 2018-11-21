@@ -25,7 +25,7 @@ let y = d3.scaleLinear()
 let line = d3.line()
     .x(d => x(d.date))
     .y(d => y(d.close))
-    .interpolate("linear");
+   // .interpolate("linear");
 
 
 

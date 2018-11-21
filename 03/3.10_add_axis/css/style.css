@@ -1,0 +1,19 @@
+svg{
+    background:aliceblue;
+}
+rect#kot:hover{
+    background:black;
+}
+.x-axis{
+    background:red;
+    color:blue;
+}
+
+rect.update{
+    fill: blue;
+    fill-opacity: 0.5;
+}
+rect.update:hover{
+    fill:grey;
+    fill-opacity: 0.5;
+}
