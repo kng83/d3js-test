@@ -1,5 +1,4 @@
-
-let margin = { left: 100, right: 10, top: 10, bottom: 100 };
+let margin = {left: 100, right: 10, top: 10, bottom: 100};
 
 //liczymy nowa wysokosc i szerokosc
 
@@ -22,11 +21,16 @@ let x = d3.scaleTime()
 let y = d3.scaleLinear()
     .rangeRound([height, 0]);
 
+
+let interpolateTypes = [d3.curveLinear, d3.curveStepBefore,
+    d3.curveStepAfter, d3.curveBasis, d3.curveBasisOpen, d3.curveBasisClosed, d3.curveBundle,
+    d3.curveCardinal, d3.curveCardinal, d3.curveCardinalOpen, d3.curveCardinalClosed, d3.curveNatural];
 let line = d3.line()
     .x(d => x(d.date))
     .y(d => y(d.close))
-   // .interpolate("linear");
-
+    .curve(interpolateTypes[7])
+// .interpolate("linear");
+//http://bl.ocks.org/emmasaunders/c25a147970def2b02d8c7c2719dc7502
 
 
 d3.tsv('data/area.tsv').then(data => {
@@ -37,7 +41,7 @@ d3.tsv('data/area.tsv').then(data => {
         return d.date;
     }));
     y.domain(d3.extent(newData, function (d) {
-        d.close = + d.close;
+        d.close = +d.close;
         return d.close;
     }));
 

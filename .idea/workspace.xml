@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0f5a03f-ce91-4a4d-8012-fb745f058e03" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/03/3.11/css/style.css" afterPath="$PROJECT_DIR$/03/3.11/css/style.css" />
       <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/js/main.js" afterPath="$PROJECT_DIR$/03/3.14_test_chart/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,22 +63,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03/3.10_add_axis/js/main.js">
+        <entry file="file://$PROJECT_DIR$/03/3.14_test_chart/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03/3.10_add_axis/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="378">
+              <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -110,10 +99,10 @@
         <option value="$PROJECT_DIR$/03/3.06_band_sales_min_max/data/buildings.json" />
         <option value="$PROJECT_DIR$/03/3.06_band_sales_min_max/js/main.js" />
         <option value="$PROJECT_DIR$/03/3.09_add_margin/js/main.js" />
-        <option value="$PROJECT_DIR$/03/3.14_test_chart/js/main.js" />
         <option value="$PROJECT_DIR$/03/3.11/css/style.css" />
         <option value="$PROJECT_DIR$/03/3.10_add_axis/css/style.css" />
         <option value="$PROJECT_DIR$/03/3.10_add_axis/js/main.js" />
+        <option value="$PROJECT_DIR$/03/3.14_test_chart/js/main.js" />
       </list>
     </option>
   </component>
@@ -149,6 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,28 +156,19 @@
               <item name="udemy-d3" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy-d3" type="462c0819:PsiDirectoryNode" />
               <item name="03" type="462c0819:PsiDirectoryNode" />
-              <item name="3.10_add_axis" type="462c0819:PsiDirectoryNode" />
+              <item name="3.14_test_chart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="udemy-d3" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy-d3" type="462c0819:PsiDirectoryNode" />
               <item name="03" type="462c0819:PsiDirectoryNode" />
-              <item name="3.10_add_axis" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="udemy-d3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="udemy-d3" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-              <item name="3.10_add_axis" type="462c0819:PsiDirectoryNode" />
+              <item name="3.14_test_chart" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/udemy-d3/03/3.10_add_axis/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/udemy-d3/03/3.14_test_chart/index.html" />
     <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/udemy-d3/08/8.06/index.html" />
@@ -234,8 +216,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
@@ -258,12 +240,13 @@
       <workItem from="1542661275296" duration="3956000" />
       <workItem from="1542702570313" duration="1682000" />
       <workItem from="1542751270709" duration="4130000" />
-      <workItem from="1542838163212" duration="3304000" />
+      <workItem from="1542838163212" duration="3807000" />
+      <workItem from="1542876091537" duration="1179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16860000" />
+    <option name="totallyTimeSpent" value="18542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
@@ -320,6 +303,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/03/3.14_test_chart/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02/2.06/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -600,21 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.14_test_chart/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03/3.10/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,6 +623,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/3.14_test_chart/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
           <folding />
         </state>
       </provider>
