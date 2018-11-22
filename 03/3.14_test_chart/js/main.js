@@ -2,8 +2,8 @@ let margin = {left: 100, right: 10, top: 10, bottom: 100};
 
 //liczymy nowa wysokosc i szerokosc
 
-let width = 800 - margin.left - margin.right;
-let height = 900 - margin.top - margin.bottom;
+let width = 600 - margin.left - margin.right;
+let height = 600 - margin.top - margin.bottom;
 
 
 let svg = d3.select("#chart-area")
@@ -28,7 +28,7 @@ let interpolateTypes = [d3.curveLinear, d3.curveStepBefore,
 let line = d3.line()
     .x(d => x(d.date))
     .y(d => y(d.close))
-    .curve(interpolateTypes[7])
+    .curve(interpolateTypes[3])
 // .interpolate("linear");
 //http://bl.ocks.org/emmasaunders/c25a147970def2b02d8c7c2719dc7502
 
@@ -74,7 +74,7 @@ d3.tsv('data/area.tsv').then(data => {
         .attr("class", "line")
         .attr("d", line)
         .attr("stroke", "blue")
-        .attr("stroke-width", 2)
+        .attr("stroke-width", 5)
         .attr("fill", "none");
 
 
