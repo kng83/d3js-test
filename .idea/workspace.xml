@@ -2,27 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f5a03f-ce91-4a4d-8012-fb745f058e03" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/data/revenues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.04_updata_pattern/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/data/revenues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.06_update_zmiana_danych/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.07_transition/data/revenues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.07_transition/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.07_transition/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.07_transition/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/data/revenues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.06/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.06/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.07/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/js/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,55 +44,74 @@
     <session id="-1421475712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
+          <entry key="css" value="10" />
           <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="17" />
-          <entry key="js" value="39" />
-          <entry key="json" value="10" />
+          <entry key="html" value="25" />
+          <entry key="js" value="58" />
+          <entry key="json" value="12" />
           <entry key="tsv" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="17" />
-          <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="39" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="25" />
+          <entry key="JSON" value="12" />
+          <entry key="JavaScript" value="58" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="TSV" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="150" />
+          <entry key="css" value="288" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="4850" />
-          <entry key="json" value="60" />
+          <entry key="js" value="7111" />
+          <entry key="json" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="150" />
-          <entry key="JSON" value="60" />
-          <entry key="JavaScript" value="4850" />
+          <entry key="CSS" value="288" />
+          <entry key="JSON" value="61" />
+          <entry key="JavaScript" value="7111" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05/5.10.1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -104,7 +130,6 @@
         <option value="$PROJECT_DIR$/02/2.04/js/main.js" />
         <option value="$PROJECT_DIR$/02/2.06/css/style.css" />
         <option value="$PROJECT_DIR$/02/2.06/js/main.js" />
-        <option value="$PROJECT_DIR$/03/3.02_logarytmy/js/main.js" />
         <option value="$PROJECT_DIR$/03/3.02_kolory/js/main.js" />
         <option value="$PROJECT_DIR$/03/3.06_band_sales/data/buildings.json" />
         <option value="$PROJECT_DIR$/03/3.06_band_sales/js/main.js" />
@@ -127,6 +152,13 @@
         <option value="$PROJECT_DIR$/05/5.06_update_zmiana_danych/js/main.js" />
         <option value="$PROJECT_DIR$/05/5.07/data/revenues.json" />
         <option value="$PROJECT_DIR$/05/5.07/js/main.js" />
+        <option value="$PROJECT_DIR$/05/5.07_transition/data/revenues.json" />
+        <option value="$PROJECT_DIR$/05/5.07_transition/js/main.js" />
+        <option value="$PROJECT_DIR$/05/5.08_scatter/js/main.js" />
+        <option value="$PROJECT_DIR$/05/5.08_scatter/css/style.css" />
+        <option value="$PROJECT_DIR$/03/3.02_logarytmy/js/main.js" />
+        <option value="$PROJECT_DIR$/05/5.10.0_gapminder/css/style.css" />
+        <option value="$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js" />
       </list>
     </option>
   </component>
@@ -152,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,11 +197,29 @@
               <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
               <item name="05" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="05" type="462c0819:PsiDirectoryNode" />
+              <item name="5.10.0_gapminder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="05" type="462c0819:PsiDirectoryNode" />
+              <item name="5.10.0_gapminder" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="05" type="462c0819:PsiDirectoryNode" />
+              <item name="5.10.1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,36 +252,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.08/index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.10.1/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.06_update_zmiana_danych/index.html">
+    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.10.0_gapminder/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.06/index.html">
+    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.08_scatter/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.10.0/index.html">
+    <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.02/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.07/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/07/7.04/index.html">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html (3)" />
       <item itemvalue="JavaScript Debug.index.html (4)" />
       <item itemvalue="JavaScript Debug.index.html (5)" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -252,15 +303,17 @@
       <workItem from="1542924227343" duration="2966000" />
       <workItem from="1542963516576" duration="850000" />
       <workItem from="1542964382035" duration="2668000" />
-      <workItem from="1542967117113" duration="1413000" />
+      <workItem from="1542967117113" duration="2751000" />
+      <workItem from="1543061867741" duration="10776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26483000" />
+    <option name="totallyTimeSpent" value="38597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239556" />
       <window_info id="Structure" order="1" weight="0.24960254" />
@@ -274,8 +327,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920678" visible="true" weight="0.32641292" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007932" side_tool="true" visible="true" weight="0.32641292" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49867794" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132203" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,94 +360,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02/2.04/js/d3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.05.0/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.05.1/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.06/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.06/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="23" selection-start-line="9" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.04/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.05.1/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.05.0/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.06/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/2.06/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.02_skalowanie_moj/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.02_interval/data/revenues.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06/6.04/data/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-381425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.02_logarytmy/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.02_logarytmy/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.02_kolory/data/data.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.02_logarytmy/data/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="148308" column="26" selection-start-line="148308" selection-start-column="17" selection-end-line="148308" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.02_kolory/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/03/3.02_kolory/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -465,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03/3.10_add_axis/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03/3.14_test_chart/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -483,13 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.02_interval/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
@@ -505,13 +456,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05/5.04_updata_pattern/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.06_update_zmiana_danych/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05/5.06/index.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -535,9 +479,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.10.0/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/05/5.08/js/d3.min.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -574,6 +515,145 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.06_update_zmiana_danych/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.07_transition/data/revenues.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.07_transition/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.07_transition/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.02/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07/7.04/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.10.0_gapminder/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.08_scatter/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.08_scatter/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.08_scatter/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.10.0_gapminder/data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.08_scatter/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/3.02_skalowanie_moj/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/3.10_add_axis/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/3.11_normalize_y_axis/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/3.06_band_sales/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/3.06_band_sales_min_max/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.10.0_gapminder/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.02_interval/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/3.02_logarytmy/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.10.1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
