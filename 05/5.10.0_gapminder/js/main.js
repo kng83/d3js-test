@@ -9,6 +9,7 @@ let margin = {left: 80, right: 20, top: 50, bottom: 100};
 let width = 600 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
+let currentDate = 0;
 //Flag
 let flag = true;
 
@@ -55,21 +56,21 @@ let yLabel = g.append("text")
 
 let year = g.append("text")
     .attr("y", height + 50)
-    .attr("id","year")
+    .attr("id", "year")
     .attr("x", width)
     .attr("font-size", "20px")
     .attr("text-anchor", "end")
-    .attr("class","year-look")
+    .attr("class", "year-look")
     .text("Year");
 
 d3.json("data/data.json").then(data => {
 
     d3.interval(() => {
-        updata(data[190].countries)
-        g.select("#year").text("hohoho")
-
-    }, 1000);
-    console.log(data[190])
+        let actuallDate = currentDate + (+data[0].year);
+        updata(data[currentDate].countries)
+        g.select("#year").text(actuallDate)
+        currentDate = currentDate + 1;
+    }, 100);
     updata(data);
 });
 
@@ -94,8 +95,8 @@ function updata(data) {
     // Exit old elements not present in new data set
     circles.exit()
     // .attr("fill", "red")
-     .transition(t)
-     .remove();
+        .transition(t)
+        .remove();
 
     // Zamieniamy prostokaty na kolka
     // i cy. Usuwamy wysokosc i dajemy polowe pasma tak by kropki byly nad miesiacami

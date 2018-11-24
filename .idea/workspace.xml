@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f5a03f-ce91-4a4d-8012-fb745f058e03" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/05/5.07_transition/data/revenues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.07_transition/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.07_transition/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.07_transition/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/data/revenues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.08_scatter/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/js/d3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.07_transition/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/5.10.0/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +31,7 @@
           <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="25" />
-          <entry key="js" value="58" />
+          <entry key="js" value="60" />
           <entry key="json" value="12" />
           <entry key="tsv" value="2" />
         </counts>
@@ -68,7 +41,7 @@
           <entry key="CSS" value="10" />
           <entry key="HTML" value="25" />
           <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="58" />
+          <entry key="JavaScript" value="60" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="TSV" value="1" />
         </counts>
@@ -77,7 +50,7 @@
         <counts>
           <entry key="css" value="288" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="7111" />
+          <entry key="js" value="7383" />
           <entry key="json" value="61" />
         </counts>
       </usages-collector>
@@ -85,7 +58,7 @@
         <counts>
           <entry key="CSS" value="288" />
           <entry key="JSON" value="61" />
-          <entry key="JavaScript" value="7111" />
+          <entry key="JavaScript" value="7383" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -96,17 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05/5.10.1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -210,12 +174,6 @@
               <item name="5.10.0_gapminder" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
-              <item name="05" type="462c0819:PsiDirectoryNode" />
-              <item name="5.10.1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -304,12 +262,12 @@
       <workItem from="1542963516576" duration="850000" />
       <workItem from="1542964382035" duration="2668000" />
       <workItem from="1542967117113" duration="2751000" />
-      <workItem from="1543061867741" duration="10776000" />
+      <workItem from="1543061867741" duration="11705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38597000" />
+    <option name="totallyTimeSpent" value="39526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -327,8 +285,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49867794" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50132203" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49814913" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50185084" side_tool="true" visible="true" weight="0.3298731" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,9 +337,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03/3.13.1/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.10.1/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/10/10.08.1/js/barChart.js">
@@ -650,10 +605,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05/5.10.1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05/5.10.0_gapminder/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        <state relative-caret-position="168">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
