@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f5a03f-ce91-4a4d-8012-fb745f058e03" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/6.02_add_legend/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.08_line_graph/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.08_line_graph/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/css/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/css/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/data/coins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/data/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/js/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/6.10.0_line_project/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/css/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/css/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/css/jquery-ui.structure.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/css/jquery-ui.structure.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/css/jquery-ui.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/css/jquery-ui.theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/data/coins.json" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/data/coins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/data/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/data/example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.10.0_line_project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/js/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/js/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/js/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.08_line_graph/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/6.10.0/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/6.10.0_line_project/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,49 +45,49 @@
     <session id="-1421475712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="17" />
+          <entry key="css" value="25" />
           <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="37" />
-          <entry key="js" value="78" />
-          <entry key="json" value="12" />
+          <entry key="html" value="44" />
+          <entry key="js" value="89" />
+          <entry key="json" value="16" />
           <entry key="tsv" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="17" />
-          <entry key="HTML" value="37" />
-          <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="78" />
+          <entry key="CSS" value="25" />
+          <entry key="HTML" value="44" />
+          <entry key="JSON" value="16" />
+          <entry key="JavaScript" value="89" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="TSV" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="291" />
+          <entry key="css" value="316" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="9593" />
+          <entry key="js" value="10644" />
           <entry key="json" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="291" />
+          <entry key="CSS" value="316" />
           <entry key="HTML" value="8" />
           <entry key="JSON" value="61" />
-          <entry key="JavaScript" value="9585" />
+          <entry key="JavaScript" value="10636" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -77,24 +96,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06/6.05_start_stop/index.html">
+        <entry file="file://$PROJECT_DIR$/06/6.10.0_line_project/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06/6.10.0_line_project/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="322">
+              <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="91" selection-end-column="30" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06/6.05_start_stop/js/main.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/6.10.1/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="637">
+              <caret line="193" column="1" lean-forward="true" selection-start-line="106" selection-end-line="193" selection-end-column="1" />
               <folding>
-                <element signature="n#style#0;n#span#4;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/6.10.1/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -104,6 +136,7 @@
       <find>chin</find>
       <find>inter</find>
       <find>red</find>
+      <find>pars</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,6 +182,11 @@
         <option value="$PROJECT_DIR$/06/6.04_add_tiptools/css/style.css" />
         <option value="$PROJECT_DIR$/06/6.04_add_tiptools/js/main.js" />
         <option value="$PROJECT_DIR$/06/6.05_start_stop/js/main.js" />
+        <option value="$PROJECT_DIR$/06/6.07_slider/css/style.css" />
+        <option value="$PROJECT_DIR$/06/6.07_slider/js/main.js" />
+        <option value="$PROJECT_DIR$/06/6.08_line_graph/css/style.css" />
+        <option value="$PROJECT_DIR$/06/6.08_line_graph/js/main.js" />
+        <option value="$PROJECT_DIR$/06/6.10.0_line_project/js/main.js" />
       </list>
     </option>
   </component>
@@ -191,13 +229,46 @@
               <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
               <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="6.05_start_stop" type="462c0819:PsiDirectoryNode" />
+              <item name="6.08_line_graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
               <item name="06" type="462c0819:PsiDirectoryNode" />
-              <item name="6.05_start_stop" type="462c0819:PsiDirectoryNode" />
+              <item name="6.08_line_graph" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="6.10.0_line_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="6.10.0_line_project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="6.10.0_line_project" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="6.10.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d3js-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d3js-test" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="6.10.1" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -218,11 +289,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Pawel\Projects\d3js-test\06\6.05_start_stop\css" />
-      <recent name="G:\Pawel\Projects\d3js-test\06\6.05_start_stop" />
       <recent name="G:\Pawel\Projects\d3js-test\06" />
-      <recent name="G:\Pawel\Projects\d3js-test\06\6.04_add_tiptools" />
-      <recent name="G:\Pawel\Projects\d3js-test\06\6.04_add_tiptools\js" />
+      <recent name="G:\Pawel\Projects\d3js-test\06\6.07_slider\css" />
+      <recent name="G:\Pawel\Projects\d3js-test\06\6.07_slider\js" />
+      <recent name="G:\Pawel\Projects\d3js-test\06\6.07_slider" />
+      <recent name="G:\Pawel\Projects\d3js-test\06\6.05_start_stop\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,36 +308,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/05/5.10.1/index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.08_line_graph/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.02_add_legend/index.html">
+    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.10.0_line_project/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.04/index.html">
+    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.07_slider/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.04_add_tiptools/index.html">
+    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.10.1/index.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d3js-test/06/6.05_start_stop/index.html">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (3)" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.index.html (4)" />
-      <item itemvalue="JavaScript Debug.index.html (5)" />
-      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -291,12 +362,13 @@
       <workItem from="1542967117113" duration="2751000" />
       <workItem from="1543061867741" duration="15581000" />
       <workItem from="1543140722677" duration="65000" />
-      <workItem from="1543157931133" duration="7893000" />
+      <workItem from="1543157931133" duration="8010000" />
+      <workItem from="1543230621141" duration="5806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51360000" />
+    <option name="totallyTimeSpent" value="57283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -314,8 +386,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49814913" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50185084" side_tool="true" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4976203" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023797" side_tool="true" visible="true" weight="0.053056516" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -347,95 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05/5.04_updata_pattern/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.06/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.06/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.06_update_zmiana_danych/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.08/js/d3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.08/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.08/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.07/data/revenues.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.06/data/revenues.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.07/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.07/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.06_update_zmiana_danych/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.07_transition/data/revenues.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.07_transition/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.07_transition/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06/6.02/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07/7.04/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.08_scatter/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05/5.08_scatter/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05/5.08_scatter/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -600,6 +583,16 @@
     <entry file="file://$PROJECT_DIR$/06/6.05/css/d3-tip.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.05_start_stop/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="n#style#0;n#span#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06/6.05_start_stop/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -607,12 +600,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06/6.05_start_stop/js/main.js">
+    <entry file="file://$PROJECT_DIR$/06/6.07/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07_slider/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="301">
+          <caret line="20" selection-start-line="20" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07/css/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07/js/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07_slider/js/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07_slider/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="31" column="37" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07_slider/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.07_slider/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="166" column="23" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#span#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.08_line_graph/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.08_line_graph/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.10.0_line_project/data/coins.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.08_line_graph/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.10.0_line_project/data/example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.10.1/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.10.0_line_project/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.10.1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="193" column="1" lean-forward="true" selection-start-line="106" selection-end-line="193" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/6.10.0_line_project/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="91" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
