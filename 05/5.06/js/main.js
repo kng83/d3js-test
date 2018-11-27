@@ -61,7 +61,7 @@ d3.json("data/revenues.json").then(function(data){
     });
 
     d3.interval(function(){
-        update(data)
+        update(data);
         flag = !flag
     }, 1000);
 
@@ -77,7 +77,7 @@ function update(data) {
 
     // X Axis
     var xAxisCall = d3.axisBottom(x);
-    xAxisGroup.call(xAxisCall);;
+    xAxisGroup.call(xAxisCall);
 
     // Y Axis
     var yAxisCall = d3.axisLeft(y)
