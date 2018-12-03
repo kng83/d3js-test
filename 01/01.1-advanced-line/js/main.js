@@ -1,4 +1,4 @@
-let data = [[10, 20], [40, 50], [100, 320], [20, 40],[200,2]];
+let data = [[10, 100], [50, 100],[50,50], [100, 50], [150, 50],[150,100],[200, 100], [200, 50], [250, 50], [250, 100],[300,100]];
 
 // moj na wyszukanie min i max
 yMax = data.reduce((acc, current) => current[1] > acc[1] ? current : acc)[1];
@@ -21,7 +21,7 @@ setInterval(()=>{
         index ++;
     }
 
-    if(index >2){
+    if(index >7){
         svg.select('line:first-child').remove();
     }
 
@@ -43,7 +43,7 @@ function drawLine(point, nextPoint){
         .attr('x2',nextPoint[0])
         .attr('y2',nextPoint[1])
         .attr("stroke", "purple")
-        .attr("stroke-width", '2px')
+        .attr("stroke-width", '2.5px')
         .attr("opacity",'0.5')
 
 
