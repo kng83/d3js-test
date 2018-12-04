@@ -46,7 +46,6 @@ function drawLine(point, nextPoint){
         .attr("stroke-width", '2.5px')
         .attr("opacity",'0.5')
 
-
 }
 
 
