@@ -69,9 +69,6 @@ let yAxisGroup = svg.append("g")
 let pointInMemory = timeLine();
 setInterval(() => {
 
-
-
-
     let randObj = dataGenerator();
     let fullPoint = pointInMemory(randObj);
 //   console.log(fullPoint);
@@ -81,13 +78,19 @@ setInterval(() => {
 
 
 function drawLine(point, nextPoint) {
-    console.log(point[1],nextPoint[1]);
     x = d3.scaleTime().domain(d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])))).range([0, width]);
     xAxisCall = d3.axisBottom(x);
     xAxisGroup.call(xAxisCall);
 
+    if(timeMemory.length > 8){
+        timeMemory.shift();
+        svg.select('line.my-line').remove();
+    }
+
+    //console.log(x(parseTime(nextPoint[0])- x(parseTime(point[0]))));
+    console.log(x(parseTime(nextPoint[0])) - x(parseTime(point[0])));
     svg.selectAll('line.my-line').attr("transform",
-        `translate(${x(parseTime(nextPoint[0]))},${ x(parseTime(point[0]))})`);
+        `translate(${x(parseTime(nextPoint[0])) - x(parseTime(point[0]))},${0})`);
 
     svg.append('line')
         .attr('class', 'my-line')

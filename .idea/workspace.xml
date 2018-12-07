@@ -4,13 +4,6 @@
     <list default="true" id="f0f5a03f-ce91-4a4d-8012-fb745f058e03" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01/01.1-time_axis/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/01/01.1-time_axis/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/03/3.14_test_chart_time/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/03/3.14_test_chart_time/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/data/area.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/03/3.14_test_chart_time/data/area.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/data/buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/03/3.14_test_chart_time/data/buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/03/3.14_test_chart_time/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/js/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/03/3.14_test_chart_time/js/d3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/3.14_test_chart/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/03/3.14_test_chart_time/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +53,7 @@
           <entry key="css" value="1199" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="5" />
-          <entry key="js" value="16441" />
+          <entry key="js" value="16609" />
           <entry key="json" value="61" />
         </counts>
       </usages-collector>
@@ -69,7 +62,7 @@
           <entry key="CSS" value="1199" />
           <entry key="HTML" value="13" />
           <entry key="JSON" value="61" />
-          <entry key="JavaScript" value="16433" />
+          <entry key="JavaScript" value="16601" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -80,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01/01.1-time_axis/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="75" lean-forward="true" selection-start-line="74" selection-start-column="48" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -402,23 +395,23 @@
       <workItem from="1544026165307" duration="5013000" />
       <workItem from="1544083503443" duration="20222000" />
       <workItem from="1544120516926" duration="2770000" />
-      <workItem from="1544187177459" duration="3565000" />
+      <workItem from="1544187177459" duration="5429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56413000" />
+    <option name="totallyTimeSpent" value="58277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22051825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22051825" />
       <window_info id="Structure" order="1" weight="0.24960254" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32756633" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32756633" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39884394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,7 +419,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24913494" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24913494" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -731,8 +724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01/01.1-time_axis/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        <state relative-caret-position="210">
+          <caret line="75" lean-forward="true" selection-start-line="74" selection-start-column="48" selection-end-line="75" />
         </state>
       </provider>
     </entry>
