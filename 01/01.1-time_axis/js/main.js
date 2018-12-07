@@ -5,6 +5,25 @@ let width = 600 - margin.left - margin.right,
 let padding = 100;
 
 let timeMemory = [];
+
+
+function futureTime(index) {
+    //Make ten future time stamps
+    let formatTime = d3.timeFormat("%H:%M:%S");
+
+    for (let i = 1; i < index; i++) {
+        let newDate = new Date();
+        newDate.setSeconds(newDate.getSeconds() < 60 - i ? newDate.getSeconds() + i : i - 1); //
+        newDate.setMinutes(newDate.getSeconds() === i - 1 ? newDate.getMinutes() + 1 : newDate.getMinutes())
+        timeMemory.push([newDate,0]);
+    }
+    return timeMemory;
+}
+
+console.log(futureTime(7));
+
+
+
 function dataGenerator() {
     let formatTime = d3.timeFormat("%H:%M:%S");
     return [
@@ -13,7 +32,8 @@ function dataGenerator() {
 
     ]
 }
-function parseTime(value){
+
+function parseTime(value) {
     return d3.timeParse("%H:%M:%S")(value);
 }
 
@@ -21,7 +41,7 @@ function timeLine() {
 
     return function (arr) {
         timeMemory.push(arr);
-        if(timeMemory.length <=1){
+        if (timeMemory.length <= 1) {
             timeMemory.push(arr);
         }
         let point = [timeMemory[timeMemory.length - 2][0], timeMemory[timeMemory.length - 2][1]];
@@ -38,21 +58,17 @@ let svg = d3.select("#chart-area")
     .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
 
 
-// X Scale
-//let maxData = data.map(value => value[0]).reduce((acc, current) => current > acc ? current : acc);
-
 // setInterval(()=>{
 //     let help =d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])));
 //     console.log(help);
 // },1000)
 
-
-//let x = d3.scaleTime().domain(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0]))).range([0, width - padding * 2]);
-let x = d3.scaleTime().domain(d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])))).range([0, width]);
+// X Scale
+let x = d3.scaleTime().domain(d3.extent(timeMemory.map(d => parseTime(d[0])))).range([0, width]);
 let xAxisCall = d3.axisBottom(x);
 
 // Y Scale
-let y = d3.scaleLinear().domain([0,1]).range([height, 0]);
+let y = d3.scaleLinear().domain([0, 1]).range([height, 0]);
 let yAxisCall = d3.axisLeft(y).ticks(1);
 
 
@@ -71,23 +87,21 @@ setInterval(() => {
 
     let randObj = dataGenerator();
     let fullPoint = pointInMemory(randObj);
-//   console.log(fullPoint);
-  drawLine(fullPoint.point,fullPoint.nextPoint);
+    drawLine(fullPoint.point, fullPoint.nextPoint);
 
 }, 1000);
 
 
 function drawLine(point, nextPoint) {
-    x = d3.scaleTime().domain(d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])))).range([0, width]);
+    x = d3.scaleTime().domain(d3.extent(timeMemory.map(d => parseTime(d[0])))).range([0, width]);
     xAxisCall = d3.axisBottom(x);
     xAxisGroup.call(xAxisCall);
 
-    if(timeMemory.length > 8){
+    if (timeMemory.length > 8) {
         timeMemory.shift();
         svg.select('line.my-line').remove();
     }
 
-    //console.log(x(parseTime(nextPoint[0])- x(parseTime(point[0]))));
     console.log(x(parseTime(nextPoint[0])) - x(parseTime(point[0])));
     svg.selectAll('line.my-line').attr("transform",
         `translate(${x(parseTime(nextPoint[0])) - x(parseTime(point[0]))},${0})`);
