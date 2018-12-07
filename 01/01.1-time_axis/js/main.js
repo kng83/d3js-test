@@ -2,6 +2,7 @@ let margin = {left: 20, right: 20, top: 50, bottom: 50};
 
 let width = 600 - margin.left - margin.right,
     height = 200 - margin.top - margin.bottom;
+let padding = 100;
 
 let timeMemory = [];
 function dataGenerator() {
@@ -40,13 +41,14 @@ let svg = d3.select("#chart-area")
 // X Scale
 //let maxData = data.map(value => value[0]).reduce((acc, current) => current > acc ? current : acc);
 
-// setTimeout(()=>{
+// setInterval(()=>{
 //     let help =d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])));
 //     console.log(help);
-// },6000)
+// },1000)
 
 
-let x = d3.scaleTime().domain(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0]))).range([0, width]);
+//let x = d3.scaleTime().domain(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0]))).range([0, width - padding * 2]);
+let x = d3.scaleTime().domain(d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])))).range([0, width]);
 let xAxisCall = d3.axisBottom(x);
 
 // Y Scale
@@ -66,9 +68,9 @@ let yAxisGroup = svg.append("g")
 
 let pointInMemory = timeLine();
 setInterval(() => {
-    x = d3.scaleTime().domain(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0]))).range([0, width]);
-    xAxisCall = d3.axisBottom(x);
-    xAxisGroup.call(xAxisCall);
+
+
+
 
     let randObj = dataGenerator();
     let fullPoint = pointInMemory(randObj);
@@ -79,35 +81,43 @@ setInterval(() => {
 
 
 function drawLine(point, nextPoint) {
+    console.log(point[1],nextPoint[1]);
+    x = d3.scaleTime().domain(d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])))).range([0, width]);
+    xAxisCall = d3.axisBottom(x);
+    xAxisGroup.call(xAxisCall);
 
-    // svg.append('line')
-    //     .attr('class', 'my-line')
-    //     .attr('x1', parseTime(point[0]))
-    //     .attr('y1', point[1])
-    //     .attr('x2', parseTime(point[0]))
-    //     .attr('y2', point[1])
-    //     .attr("stroke", "purple")
-    //     .attr("stroke-width", '2px')
-    //     .attr("opacity", '0.2')
-    //     .transition()
-    //     .duration(800)
-    //     .attr('x2', parseTime(nextPoint[0]))
-    //     .attr('y2', nextPoint[1])
-    //     .attr("stroke", "#002881")
-    //     .attr("stroke-width", '2.5px')
-    //     .attr("opacity", '0.5')
-    //
+    svg.selectAll('line.my-line').attr("transform",
+        `translate(${x(parseTime(nextPoint[0]))},${ x(parseTime(point[0]))})`);
+
+    svg.append('line')
+        .attr('class', 'my-line')
+        .attr('x1', x(parseTime(point[0])))
+        .attr('y1', y(point[1]))
+        .attr('x2', x(parseTime(point[0])))
+        .attr('y2', y(point[1]))
+        .attr("stroke", "purple")
+        .attr("stroke-width", '2px')
+        .attr("opacity", '0.2')
+        .transition()
+        .duration(800)
+        .attr('x2', x(parseTime(nextPoint[0])))
+        .attr('y2', y(nextPoint[1]))
+        .attr("stroke", "#002881")
+        .attr("stroke-width", '2.5px')
+        .attr("opacity", '0.5');
+
+
     // svg.selectAll('circle.fly-circle').remove();
     // svg.append('circle')
     //     .attr('class', 'fly-circle')
-    //     .attr('cx', parseTime(point[0]))
+    //     .attr('cx', x(parseTime(point[0])))
     //     .attr('cy', point[1])
     //     .attr('r', '5px')
     //     .attr("fill", "purple")
     //     .attr("opacity", '0.2')
     //     .transition()
     //     .duration(800)
-    //     .attr('cx', parseTime(nextPoint[0]))
+    //     .attr('cx', x(parseTime(nextPoint[0])))
     //     .attr('cy', nextPoint[1])
     //     .attr('r', '5px')
     //     .attr("fill", "#002881")
