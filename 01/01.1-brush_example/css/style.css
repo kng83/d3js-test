@@ -1,0 +1,8 @@
+circle {
+    fill-opacity: 0.2;
+    transition: fill-opacity 250ms linear;
+  }
+  
+  circle.active {
+    stroke: #f00;
+  }
