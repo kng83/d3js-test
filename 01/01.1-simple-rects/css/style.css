@@ -1,0 +1,10 @@
+svg{
+    background:lightcyan;
+}
+
+.xxx:hover{
+    fill:red;
+}
+.xxx{
+    fill:blue;
+}
