@@ -23,8 +23,6 @@ let line = d3.line()
         return y(d);
     }).curve(d3.curveStep);
 
-
-// definicja clipPath ktory odpowiada za przsuniece naszego wykresu
 g.append("defs")
     .append("clipPath")
     .attr("id", "clip")
@@ -45,7 +43,8 @@ g.append("g")
     .attr("clip-path", "url(#clip)")
     .append("path")
     .datum(data)
-    .attr("class", "line")
+    .attr("id","cline")
+    .attr("class", "clip-line")
     .transition()
     .duration(4000)
     .ease(d3.easeLinear)
@@ -55,10 +54,12 @@ function tick() {
     // Push a new data point onto the back.
     data.push(random());
     // Redraw the line.
-    d3.select(this)
+    d3.select(".clip-line")
         .attr("d", line)
         .attr("transform", null);
     // Slide it to the left.
+
+   // console.log(document.getElementById('cline'))
 
     d3.active(this)
         .attr("transform", "translate(" + x(0) + ",0)")
