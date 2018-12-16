@@ -1,0 +1,29 @@
+svg {
+    background: #ffffff;
+}
+
+path.domain {
+    stroke: darkgray;
+    stroke-opacity: 0.7;
+}
+
+g.tick > text {
+    fill: #969696;
+}
+
+g.tick >line{
+    stroke-opacity: 0.0;
+    stroke:darkgray;
+}
+
+g g.x.axis >g.tick >line{
+    stroke-opacity: 0.7;
+    stroke:darkgray;
+}
+
+path.clip-line{
+    fill:none;
+    /*stroke:darkblue;*/
+    /*stroke-opacity:0.7;*/
+    /*stroke-width: 2px;*/
+}

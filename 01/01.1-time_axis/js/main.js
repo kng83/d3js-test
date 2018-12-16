@@ -7,6 +7,7 @@ let padding = 100;
 let timeMemory = [];
 
 
+console.log(d3.select("#chart-area"));
 function futureTime(index) {
     //Make ten future time stamps
     let formatTime = d3.timeFormat("%H:%M:%S");
@@ -56,7 +57,6 @@ let svg = d3.select("#chart-area")
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
-
 
 // setInterval(()=>{
 //     let help =d3.extent(timeMemory.map(d => d3.timeParse("%H:%M:%S")(d[0])));
