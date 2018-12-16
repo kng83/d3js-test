@@ -1,3 +1,6 @@
+//to jest ostatni przyklad
+//https://gist.github.com/bjorngi/00be6a13e1bede83cbef
+
 let n = 10,
     random = () => Math.round(Math.random()),
     data = d3.range(n).map(random);
@@ -32,14 +35,14 @@ g.append("defs")
 
 g.append("g")
     .attr("class", "axis axis--x")
-    .attr("transform", "translate(0," + y(0) + ")")
+    .attr("transform", `translate(${0},${y(0)})`)
     .call(d3.axisBottom(x).ticks(5));
 
 g.append("g")
     .attr("class", "axis axis--y")
     .call(d3.axisLeft(y).ticks(1));
 
-g.append("g")
+let clip = g.append("g")
     .attr("clip-path", "url(#clip)")
     .append("path")
     .datum(data)
@@ -50,21 +53,42 @@ g.append("g")
     .ease(d3.easeLinear)
     .on("start", tick);
 
+// clip.append("g")
+//     .attr("class", "axis axis--x")
+//     .attr("stroke","gray")
+//     .attr("transform", `translate(${0},${y(0)})`)
+//     .call(d3.axisBottom(x).ticks(5));
+
 function tick() {
     // Push a new data point onto the back.
     data.push(random());
     // Redraw the line.
     d3.select(".clip-line")
         .attr("d", line)
+        .attr("stroke", "red")
+        .attr("opacity", '0.5')
+        .attr("stroke-width","2px")
         .attr("transform", null);
-    // Slide it to the left.
+
 
    // console.log(document.getElementById('cline'))
 
+    // d3.selectAll("g.tick")
+    //     .attr("transform", `translate(${x(0)},${0})`)
+    //     .transition()
+    //    // .on("start", tick);
+
+    console.log(x(0));
+    // Slide it to the left.
+    console.log(this);
     d3.active(this)
-        .attr("transform", "translate(" + x(0) + ",0)")
+        .attr("transform", `translate(${x(0)},${0})`)
+        .attr("stroke-width","4px")
         .transition()
         .on("start", tick);
+
+
+
     // Pop the old data point off the front.
     data.shift();
 }
