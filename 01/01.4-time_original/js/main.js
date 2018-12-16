@@ -11,7 +11,7 @@
         scrollData = d3.range(n).map(function () {
             return 0;
         });
-
+        console.log(now);
     let margin = { top: 6, right: 0, bottom: 20, left: 40 },
         width = 960 - margin.right,
         height = 120 - margin.top - margin.bottom;
@@ -34,9 +34,7 @@
         .curve(d3.curveBasis);
 
     let svg = d3
-        .select(".graph")
-        .append("p")
-        .append("svg")
+        .select("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .style("margin-left", -margin.left + "px")
@@ -53,7 +51,7 @@
 
     let xAxis = d3.axisBottom(x);
 
-    let axis = svg
+    svg
         .append("g")
         .attr("class", "xaxis")
         .attr("transform", "translate(0," + height + ")")
