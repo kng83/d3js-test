@@ -16,19 +16,17 @@ g.tick >line{
     stroke:darkgray;
 }
 
-g g.x.axis >g.tick >line{
+/* g g.x.axis >g.tick >line{
     stroke-opacity: 0.7;
     stroke:darkgray;
-}
+} */
 
 path.clip-line{
     fill:none;
-    /*stroke:darkblue;*/
-    /*stroke-opacity:0.7;*/
-    /*stroke-width: 2px;*/
 }
 
 .line{
     fill: none;
-    stroke: rgb(112, 95, 95);
+    stroke: rgba(202, 22, 236 ,0.7);
+    stroke-width: 2px;
   }

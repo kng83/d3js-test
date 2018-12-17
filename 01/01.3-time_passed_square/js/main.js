@@ -6,7 +6,7 @@ let n = 10,
     data = d3.range(n).map(random);
 
 let svg = d3.select("svg"),
-    margin = {top: 20, right: 20, bottom: 20, left: 40},
+    margin = { top: 20, right: 20, bottom: 20, left: 40 },
     width = +svg.attr("width") - margin.left - margin.right,
     height = +svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
@@ -19,12 +19,9 @@ let y = d3.scaleLinear()
     .range([height, 0]);
 
 let line = d3.line()
-    .x((d, i) =>{
-        return x(i);
-    })
-    .y((d, i)=> {
-        return y(d);
-    }).curve(d3.curveStep);
+    .x((d, i) => x(i))
+    .y((d, i) => y(d))
+    .curve(d3.curveStep);
 
 g.append("defs")
     .append("clipPath")
@@ -36,7 +33,7 @@ g.append("defs")
 g.append("g")
     .attr("class", "axis axis--x")
     .attr("transform", `translate(${0},${y(0)})`)
-    .call(d3.axisBottom(x).ticks(5));
+    .call(d3.axisBottom(x).ticks(3));
 
 g.append("g")
     .attr("class", "axis axis--y")
@@ -46,18 +43,13 @@ let clip = g.append("g")
     .attr("clip-path", "url(#clip)")
     .append("path")
     .datum(data)
-    .attr("id","cline")
+    .attr("id", "cline")
     .attr("class", "clip-line")
     .transition()
     .duration(4000)
     .ease(d3.easeLinear)
     .on("start", tick);
 
-// clip.append("g")
-//     .attr("class", "axis axis--x")
-//     .attr("stroke","gray")
-//     .attr("transform", `translate(${0},${y(0)})`)
-//     .call(d3.axisBottom(x).ticks(5));
 
 function tick() {
     // Push a new data point onto the back.
@@ -67,26 +59,24 @@ function tick() {
         .attr("d", line)
         .attr("stroke", "red")
         .attr("opacity", '0.5')
-        .attr("stroke-width","2px")
+        .attr("stroke-width", "2px")
         .attr("transform", null);
 
+    d3.select(".x--axis")
+        .attr("transform", null)
+        .call(d3.axisBottom(x).ticks(4));
 
-   // console.log(document.getElementById('cline'))
+    d3.select(".x--axis")
+        .attr("transform", `translate(${x(0)},${0})`)
+        .transition()
+        .call(d3.axisBottom(x).ticks(14));
 
-    // d3.selectAll("g.tick")
-    //     .attr("transform", `translate(${x(0)},${0})`)
-    //     .transition()
-    //    // .on("start", tick);
-
-    console.log(x(0));
     // Slide it to the left.
-    console.log(this);
     d3.active(this)
         .attr("transform", `translate(${x(0)},${0})`)
-        .attr("stroke-width","4px")
+        .attr("stroke-width", "2px")
         .transition()
         .on("start", tick);
-
 
 
     // Pop the old data point off the front.
