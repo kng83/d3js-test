@@ -63,19 +63,24 @@ let path = svg
     .datum(data)
     .attr("class", "line");
 
-let transition = d3
-    .transition()
-    .duration(duration)
-    .ease(d3.easeLinear);
+// let transition = d3
+//     .transition()
+//     .duration(duration)
+//     .ease(d3.easeLinear);
 
 setInterval(() => {
     if (Math.round(Math.random()) == 1) {
         count = 1;
     } else count =0;
- //   tick();
 }, 1000)
 
 function tick() {
+    
+let transition = d3
+    .transition()
+    .duration(duration)
+    .ease(d3.easeLinear);
+   
     transition = transition
         .each(function () {
             // update the domains
