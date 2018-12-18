@@ -72,6 +72,7 @@ function tick() {
         .call(d3.axisBottom(x).ticks(14));
 
     // Slide it to the left.
+    console.log(this);
     d3.active(this)
         .attr("transform", `translate(${x(0)},${0})`)
         .attr("stroke-width", "2px")

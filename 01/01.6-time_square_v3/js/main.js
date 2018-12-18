@@ -4,8 +4,8 @@
 
 let n = 20,
     duration = 1000,
-    //now = new Date(Date.now() - duration),
-    now = new Date(Date.now()),
+    now = new Date(Date.now() - 2* duration),
+    // now = new Date(Date.now()),
     state = 0,
     data = d3.range(n).map(() => 0),
     xDomain = (dateNow, numberOfTicks, duration) => [dateNow - (numberOfTicks - 2) * duration, dateNow - duration]
@@ -56,9 +56,10 @@ svg
     .attr("class", "y--axis")
     .call(yAxis.ticks(1));
 
-let path = svg
+svg
     .append("g")
     .attr("clip-path", "url(#clip)")
+    .attr("class", "path-el")
     .append("path")
     .datum(data)
     .attr("class", "line-path");
@@ -68,18 +69,12 @@ setInterval(() => {
     if (Math.round(Math.random()) == 1) {
         state = 1;
     } else state = 0;
+    move();
 }, 1000)
 
-function tick(command = "start") {
-
-    let tran = move()
-        .transition()
-        .on(command, tick)
-}
 
 function move() {
     return d3.transition()
-        .duration(duration)
         .each(() => {
             now = new Date();
 
@@ -89,19 +84,28 @@ function move() {
 
             // redraw the line and slide the line left
             d3.select(".line-path")
+                
+                //   .attr("transform", `translate(${x(now - (n - 1) * duration)},${0})`)
+               // .transition()
                 .attr("d", line)
                 .attr("transform", null)
                 .transition()
+                .attr("transform", `translate(${x(now - (n -1) * duration)},${0})`)
+                .transition()
                 .duration(duration)
+                
                 .ease(d3.easeLinear)
-                .attr("transform", `translate(${x(now - (n - 1) * duration)},${0})`);
+
+
 
             //    slide the x-axis left
             d3.select(".x--axis")
                 .transition()
                 .duration(duration)
                 .ease(d3.easeLinear)
-                .call(d3.axisBottom(x).ticks(4));
+                .call(d3.axisBottom(x).ticks(6));
+
+            d3.select(".tick").remove();
 
             // push the accumulated state onto the back, and reset the state
             data.push(state);
@@ -111,7 +115,6 @@ function move() {
 
 }
 
-tick()
 
 
 
