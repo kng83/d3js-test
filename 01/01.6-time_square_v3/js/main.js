@@ -77,7 +77,7 @@ function move() {
     return d3.transition()
         .each(() => {
             now = new Date();
-
+            data.push(state);
             // update the domains
             x.domain(xDomain(now, n, duration));
             y.domain([0, d3.max(data)]);
@@ -86,16 +86,18 @@ function move() {
             d3.select(".line-path")
                 
                 //   .attr("transform", `translate(${x(now - (n - 1) * duration)},${0})`)
-               // .transition()
+              //  .transition()
                 .attr("d", line)
-                .attr("transform", null)
-                .transition()
+         //       .attr("transform", null)
                 .attr("transform", `translate(${x(now - (n -1) * duration)},${0})`)
                 .transition()
                 .duration(duration)
-                
                 .ease(d3.easeLinear)
 
+
+             
+                // pop the old data point off the front
+                data.shift();
 
 
             //    slide the x-axis left
@@ -103,14 +105,11 @@ function move() {
                 .transition()
                 .duration(duration)
                 .ease(d3.easeLinear)
-                .call(d3.axisBottom(x).ticks(6));
+                .call(d3.axisBottom(x).ticks(7));
 
             d3.select(".tick").remove();
 
             // push the accumulated state onto the back, and reset the state
-            data.push(state);
-            // pop the old data point off the front
-            data.shift();
         })
 
 }
